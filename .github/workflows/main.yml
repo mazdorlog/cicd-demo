@@ -13,6 +13,6 @@ jobs:
        
       - name: my first step
         run: |
-          echo" this is devops"
+          echo "this is devops"
           uname -a
   
