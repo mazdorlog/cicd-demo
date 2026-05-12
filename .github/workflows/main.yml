@@ -11,8 +11,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
        
-      - name: my first step
+      - name: initialize Repo
         run: |
           echo "this is devops"
           uname -a
+
+           - name: check th edocker installation
+              run: |
+                docker
+                docker images
+         
+
+           - name: Run docker container
+              run: |
+                docker run hello-world
   
