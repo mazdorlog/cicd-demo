@@ -1,3 +1,1 @@
-this is my newfile
-i have bee trying to learn yaml language
-lets try to create a a yaml file
+name: practice yaml language
